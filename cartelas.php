@@ -20,7 +20,12 @@ if ((isset($_GET['act'])) && (VariavelSegura($_GET['act']) != "")) {
 	}
 }
 // Recupera Melhores Cartelas
-$sql = "SELECT IDcartela, numeros, quant_sorteados, COUNT(quant_sorteados) AS total FROM cartelas WHERE em_uso = 1 GROUP BY quant_sorteados ORDER BY quant_sorteados DESC LIMIT 0,3";
+$sql = "SELECT IDcartela, numeros, quant_sorteados, COUNT(quant_sorteados) AS total 
+		FROM cartelas
+		WHERE em_uso = 1
+		GROUP BY quant_sorteados
+		ORDER BY quant_sorteados
+		DESC LIMIT 0,3";
 $result = $conexao->Query($sql);
 // Configura o cabecalho do XML
 $xml = "<?xml version='1.0' encoding='UTF-8'?>\n";

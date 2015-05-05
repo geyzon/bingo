@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Seleção de Cartelas para Jogar</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="js/jquery-1.10.0.min.js"></script>
+<script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
 </head>
 <body>
 <?php
