@@ -13,7 +13,7 @@ function UrlAmigavel ($string) {
 		'ï'=>'i', 'ð'=>'o', 'ñ'=>'n', 'ò'=>'o', 'ó'=>'o', 'ô'=>'o', 'õ'=>'o', 'ö'=>'o', 'ø'=>'o', 'ù'=>'u',
 		'ú'=>'u', 'û'=>'u', 'ý'=>'y', 'ý'=>'y', 'þ'=>'b', 'ÿ'=>'y', 'ƒ'=>'f', ' '=>'-', '--'=>'-','&'=>'-e-'
 	);
-	$string = strtr ($string, $caracteres['caracteresNormalizados']); // Substitui os caracteres especiais
+	$string = strtr ($string, $caracteres['caracteresNormalizados']); // Substitui os caracteres especiais pelos normalizados
     $string = trim (preg_replace('/[^\w\d_ -]/si', '', $string)); // Remove todos os caracteres ilegais
 	return strtolower($string); //finaliza, gerando uma saída em minúsculo para a funcao
 }
