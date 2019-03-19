@@ -15,7 +15,7 @@
     <ul class="nav nav-tabs">
       <li><a  data-toggle="tab" href="#menu">Menu</a></li>
       <li><a  data-toggle="tab" href="#configuracoes">Configurações</a></li>
-      <li class="active"><a  data-toggle="tab" href="#jogo">Roleta</a></li>
+      <li class="active"><a data-toggle="tab" href="#jogo">Roleta</a></li>
       <li><a  data-toggle="tab" href="#quadro">Quadro</a></li>
     </ul>
     <div class="tab-content">
