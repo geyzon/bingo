@@ -1,0 +1,21 @@
+=bloco ($largura: 900px)
+	width: $largura
+
+%escondido
+	display: none
+
+%posicao
+	float: left
+	margin: 0 auto
+
+
+%exemplo
+	+bloco
+	@extend %escondido
+	@extend %posicao
+	height: 50px
+
+.complexo
+	@extend %exemplo
+	color: #cda
+	background-color: #02F
