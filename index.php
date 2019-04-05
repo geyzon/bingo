@@ -2,7 +2,7 @@
 <html class="container-fluid">
 	<head>
 		<meta charset='utf-8'>
-		<title>Bingo!</title>
+		<title>Bingo Online!</title>
 		<link href="../css/bingo.css" rel="stylesheet" type="text/css">
 		<link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
 		<script type="text/javascript" src="../jquery/jquery-2.1.1.min.js"></script>
