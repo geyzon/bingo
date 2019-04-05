@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="container-fluid">
 	<head>
 		<meta charset='utf-8'>
 		<title>Bingo!</title>
